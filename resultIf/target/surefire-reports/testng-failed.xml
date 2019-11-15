@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="TestResultCount.TestResultCount">
+        <methods>
+          <include name="AirArabia_Case1"/>
+          <include name="URLForAPI"/>
+          <include name="DomesticOneWayTwoAdult_Case1"/>
+          <include name="sendreport"/>
+          <include name="FlightExperAmadeus_Case1"/>
+          <include name="LccDomesticOneWayOneAdult_Case1"/>
+          <include name="PegasusAirways_Case1"/>
+          <include name="Mondee_Case1"/>
+          <include name="DomesticOneWayOneAdult_Case1"/>
+          <include name="DomesticOneWayTAdult1_Case1"/>
+          <include name="AvivaCenterAmadeus_Case1"/>
+          <include name="Sabre_Case1"/>
+        </methods>
+      </class> <!-- TestResultCount.TestResultCount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
